@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: icon.png
+heroImage: https://cdn.jsdelivr.net/gh/deltazefiro/Amarok-doc/icon.svg
 heroText: Amarok
 tagline: 文件、应用隐藏器
 actionText: 功能介绍 →
