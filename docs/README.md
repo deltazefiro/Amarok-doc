@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: https://cdn.jsdelivr.net/gh/deltazefiro/Amarok-doc/icon.svg
+heroImage: https://cdn.jsdelivr.net/gh/deltazefiro/ImageHost/icon.png
 heroText: Amarok
 tagline: 文件、应用隐藏器
 actionText: 功能介绍 →
-actionLink: /features/
+actionLink: /intro/
 features:
 - title: 文件高速隐藏
   details: 利用混淆文件名的方式，不论文件大小高速隐藏

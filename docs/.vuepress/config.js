@@ -1,26 +1,26 @@
 module.exports = {
-  title: 'DuhangServer-doc',
-  description: 'DuhangServer文档中心',
+  title: 'Amarok-doc',
+  description: 'Amarok文档',
   head: [
     ['link', { rel: 'icon', href: '/icon.png' }]
   ],
-  base: '/DuhangServer-doc/',
+  base: '/Amarok-doc/',
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
-      { text: '服务器介绍', link: '/introduction' },
-      { text: '客户端安装', link: '/installation' },
-      { text: '客户端教程', link: '/tutorial' }
+      { text: '介绍', link: '/intro' },
+      { text: '下载', link: '/download' },
+      { text: '应用隐藏指南', link: '/hideapp' },
+      { text: '常见问题', link: '/faq' }
     ],
 
     sidebar: [
-      '/',
-      '/introduction',
-      '/installation',
-      '/tutorial'
+      '/intro',
+      '/hideapp',
+      '/faq'
     ],
 
-    repo: 'deltazefiro/DuhangServer-doc',
+    repo: 'deltazefiro/Amarok-doc',
 
     docsBranch: 'main',
     docsDir: 'docs',
