@@ -11,9 +11,9 @@ Amarok 目前提供3种应用隐藏模式:
 您可以在 `更多设置 > 应用隐藏模式` 中切换应用隐藏模式。
 
 :::tip  
-- 如果您的设备使用 **Android 11 或以上**，或已Root**且安装了 `Magisk`**，推荐选择 `Shizuku/Sui`模式。
+- 如果您的设备系统为 **Android 11 或以上**，或已Root**并安装了 `Magisk`**，推荐选择 `Shizuku/Sui`模式。
 - 如果您的设备已 Root，可选择 `Root` 模式。此模式**性能相对较差**。
-- 如果您的设备使用的是 **Android 10 或以下** 且**未 root**，可选择DSM。此模式兼容性相对较差。  
+- 如果您的设备使用的是 **Android 10 或以下** 且**未 root**，可选择DSM。不建议使用此模式。  
 :::  
 
 ## Root模式
@@ -22,7 +22,7 @@ Amarok 目前提供3种应用隐藏模式:
 
 ### 启用方式
 
-1. 确定您使用的设备已 Root。
+1. 确定您的设备已 Root。
 2. 在 `更多设置 > 应用隐藏模式` 中选择 `Root` 模式。
 3. 您的Root管理器（如 [Magisk](https://github.com/topjohnwu/Magisk) ）可能会弹出权限请求提示，请允许 Amarok 使用 Root 权限。
 
@@ -83,6 +83,5 @@ Amarok 目前提供3种应用隐藏模式:
   - 请在您的设备上安装 Shizuku 或 Sui。
 - “隐藏应用失败: 无法获取 IPackageManager 接口”
   - 您的设备可能受到厂家魔改，请在 [Github](https://github.com/deltazefiro/Amarok-Hider/issues) 上提交 issue 告知开发者进行适配。
-
 - “Shizuku 服务未运行”
   - 请确认您的 Shizuku 处于正常运行状态。可能是设备重启后 Shizuku 未重新激活。

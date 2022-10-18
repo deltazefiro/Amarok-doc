@@ -51,7 +51,7 @@ Amarok 并非加密程序，隐藏后的文件可被轻易复原。请勿使用 
 ## 更新记录
 ### Amarok v0.8.0b2
 - Breakings
-    - **这是 Amarok 的第一个 `beta` 公测版本，但非未发布（仅提供旧版本用户升级）**
+    - **这是 Amarok 的第一个 `beta` 公测版本，但非发布版本（仅提供旧版本用户升级）**
 - New Features
     - **新增 `Shuziku/Sui` 免Root应用隐藏模式**
     - **新增 Amarok帮助文档**
