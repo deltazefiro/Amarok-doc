@@ -1,67 +1,16 @@
 # 常见问题
 
-## 隐私政策
-**Privacy Policy**
+## 为什么隐藏应用会导致它们在桌面上的图标位置改变？
 
-Amarok developers built the Amarok app as an Open Source app. This SERVICE is provided by Amarok developers at no cost and is intended for use as is.
+Amarok 通过禁用应用程序来实现隐藏。从启动器的角度来看，隐藏的应用等同于已被卸载，解除隐藏时重新安装。除非 Hook 启动器，否则我们对此无能为力。
 
-This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+## 我在xxx（一个应用）中仍然可以看到隐藏的文件/图片/...！
 
-If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+这可能是该应用程序的文件缓存导致的。重新启动应用程序或手机应该可以解决问题。
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Amarok unless otherwise defined in this Privacy Policy.
+## 我不小心卸载了Amarok，但仍然有隐藏的东西。我该如何恢复它们？
 
-**Information Collection and Use**
-
-For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.
-
-The app does use third-party services that may collect information used to identify you.
-
-Link to the privacy policy of third-party service providers used by the app
-
-*   [Microsoft Appcenter](https://learn.microsoft.com/en-us/appcenter/gdpr/faq)
-
-**Log Data**
-
-We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
-
-**Cookies**
-
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
-
-This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
-
-**Service Providers**
-
-We may employ third-party companies and individuals due to the following reasons:
-
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
-
-We want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
-
-**Security**
-
-We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
-
-**Links to Other Sites**
-
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
-
-**Children’s Privacy**
-
-These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13 years of age. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do the necessary actions.
-
-**Changes to This Privacy Policy**
-
-We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
-
-This policy is effective as of 2023-07-16
-
-**Contact Us**
-
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at deltazefiro@gmail.com.
-
-> This privacy policy page was created at [privacypolicytemplate.net](https://privacypolicytemplate.net) and modified/generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
+1. 安装最新版本的Amarok。[获取Amarok](/download.md)
+2. 将应用程序隐藏模式和文件隐藏模式设置为**与**您用于隐藏的模式相同。
+3. 在“设置隐藏文件”和“设置隐藏应用程序”中添加回您隐藏的所有文件夹和应用程序。
+4. `更多设置` > `其他` > `强制取消隐藏`。如果你幸运的话，你的东西将会恢复。
