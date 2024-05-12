@@ -37,7 +37,7 @@ export default defineUserConfig({
           { text: 'Introduction', link: '/en-US/intro' },
           { text: 'Download', link: '/en-US/download' },
           { text: 'AppHider Setup', link: '/en-US/hideapp' },
-          { text: 'API', link: '/api'},
+          { text: 'API', link: '/en-US/api'},
           { text: 'FAQ', link: '/en-US/faq' },
           { text: 'Privacy Policy', link: '/en-US/privacy_policy'}
         ],
