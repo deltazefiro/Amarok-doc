@@ -17,6 +17,7 @@ export default defineUserConfig({
           { text: '介绍', link: '/intro' },
           { text: '下载', link: '/download' },
           { text: '应用隐藏指南', link: '/hideapp' },
+          { text: 'API', link: '/api'},
           { text: '常见问题', link: '/faq' },
           { text: '隐私政策', link: '/privacy_policy'}
         ],
@@ -24,6 +25,7 @@ export default defineUserConfig({
           '/intro',
           '/download',
           '/hideapp',
+          '/api',
           '/faq',
           '/privacy_policy'
         ],
@@ -35,6 +37,7 @@ export default defineUserConfig({
           { text: 'Introduction', link: '/en-US/intro' },
           { text: 'Download', link: '/en-US/download' },
           { text: 'AppHider Setup', link: '/en-US/hideapp' },
+          { text: 'API', link: '/api'},
           { text: 'FAQ', link: '/en-US/faq' },
           { text: 'Privacy Policy', link: '/en-US/privacy_policy'}
         ],
@@ -42,6 +45,7 @@ export default defineUserConfig({
           '/en-US/intro',
           '/en-US/download',
           '/en-US/hideapp',
+          '/en-US/api',
           '/en-US/faq',
           '/en-US/privacy_policy'
         ],
