@@ -23,9 +23,9 @@ You can use ADB or automation tools like MacroDroid to broadcast intents to trig
 
 ```bash
 # Hide
-adb shell am broadcast -a deltazero.amarok.HIDE -n ${APP_ID}/.receivers.ActionReceiver
+adb shell am broadcast -a deltazero.amarok.HIDE -n ${APP_ID}/deltazero.amarok.receivers.ActionReceiver
 # Unhide
-adb shell am broadcast -a deltazero.amarok.UNHIDE -n ${APP_ID}/.receivers.ActionReceiver
+adb shell am broadcast -a deltazero.amarok.UNHIDE -n ${APP_ID}/deltazero.amarok.receivers.ActionReceiver
 ```
 
 Where `${APP_ID}` is the package name of Amarok.

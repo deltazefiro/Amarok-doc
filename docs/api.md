@@ -23,9 +23,9 @@ Amarok API 无法通过隐式意图（Implicit Intent）触发。请使用显式
 
 ```bash
 # 隐藏内容
-adb shell am broadcast -a deltazero.amarok.HIDE -n ${APP_ID}/.receivers.ActionReceiver
+adb shell am broadcast -a deltazero.amarok.HIDE -n ${APP_ID}/deltazero.amarok.receivers.ActionReceiver
 # 取消隐藏
-adb shell am broadcast -a deltazero.amarok.UNHIDE -n ${APP_ID}/.receivers.ActionReceiver
+adb shell am broadcast -a deltazero.amarok.UNHIDE -n ${APP_ID}/deltazero.amarok.receivers.ActionReceiver
 ```
 
 其中 `${APP_ID}` 是 Amarok 的包名。
