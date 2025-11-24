@@ -2,16 +2,15 @@
 
 Amarok provides a quick hide API. You can trigger Amarok by sending Intent Broadcasts.
 
-:::tip Intent API <Badge text="Since v0.8.7a2" />
+:::tip Intent API
 
-- Package: *(package name of Amarok)*
+- Package: `deltazero.amarok` or `deltazefiro.amarok.foss` (F-Droid version)
 - Class: `deltazero.amarok.receivers.ActionReceiver`
 - Action:
-    - `deltazero.amarok.HIDE` (hide)
-    - `deltazero.amarok.UNHIDE` (unhide)
+  - `deltazero.amarok.HIDE` (hide)
+  - `deltazero.amarok.UNHIDE` (unhide)
+  - `deltazero.amarok.TOGGLE` (flip state) <Badge text="Since v0.10.0" />
 :::
-
-The package name of Amarok either `deltazero.amarok` (standard version) or `deltazefiro.amarok.foss` (F-Droid version).
 
 :::warning
 The Amarok API cannot be triggered by an Implicit Intent. Please use an Explicit Intent broadcast, which means you must specify Amarok as the receiver of this broadcast. For more details, see [Android Developer Documentation](https://developer.android.com/guide/components/intents-filters#ExampleExplicit).
@@ -39,6 +38,7 @@ Please refer to [MacrodroidForum](https://www.macrodroidforum.com/index.php?thre
 ```json
 {"target":"Broadcast Receiver","action":"deltazero.amarok.HIDE","package":"<APP_ID>","class":"deltazero.amarok.receivers.ActionReceiver"}
 ```
+
 Please replace `<APP_ID>` with the package name of Amarok.
 
 Refer to [joaoapps.com](https://joaoapps.com/autoshare/intentbuilder/) for usage.
