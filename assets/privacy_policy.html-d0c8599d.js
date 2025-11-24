@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-282ed117","path":"/privacy_policy.html","title":"隐私政策","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696742426000,"contributors":[{"name":"deltazefiro","email":"deltazefiro@gmail.com","commits":1}]},"filePathRelative":"privacy_policy.md"}');export{e as data};
